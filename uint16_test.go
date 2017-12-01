@@ -8,7 +8,7 @@ func TestUint16IsPrime(t *testing.T) {
 	cases := []struct {
 		num uint16
 	}{
-		{1111},
+		{11171},
 		{17},
 	}
 
