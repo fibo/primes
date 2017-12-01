@@ -6,7 +6,7 @@ import (
 
 func TestIntIsPrime(t *testing.T) {
 	cases := []struct {
-		num int
+		num uint
 	}{
 		{11},
 		{17},
