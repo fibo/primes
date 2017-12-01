@@ -4,19 +4,19 @@ import (
 	"testing"
 )
 
-func TestIntIsPrime(t *testing.T) {
+func TestUint8IsPrime(t *testing.T) {
 	cases := []struct {
-		num uint
+		num uint8
 	}{
 		{11},
 		{17},
 	}
 
 	for _, prime := range cases {
-		ok := IntIsPrime(prime.num)
+		ok := Uint8IsPrime(prime.num)
 
 		if !ok {
-			t.Errorf("IntIsPrime(%v) is false", ok)
+			t.Errorf("Uint8IsPrime(%v) is false", prime.num)
 		}
 	}
 }

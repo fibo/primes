@@ -1,7 +1,7 @@
 package primes
 
-func IntIsPrime(n uint) bool {
-	isPrime := map[uint]bool{
+func Uint8IsPrime(n uint8) bool {
+	isPrime := map[uint8]bool{
 		2:   true,
 		3:   true,
 		5:   true,
