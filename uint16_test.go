@@ -9,7 +9,7 @@ func TestUint16IsPrime(t *testing.T) {
 		num uint16
 	}{
 		{11171},
-		{17},
+		{62017},
 	}
 
 	for _, prime := range cases {
