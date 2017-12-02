@@ -7,6 +7,11 @@
 
 Unit8 and Uint16 primes list was stolen from here: https://primes.utm.edu/lists/small/100000.txt
 
+TODO:
+ - Uint32
+ - Unit64
+ - benchmark a prime number checker with this package dumb functions
+
 ## License
 
 [MIT](http://g14n.info/mit-license/)
