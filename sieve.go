@@ -1,5 +1,5 @@
 // A concurrent prime sieve.
-// This code is used for benchmarks and it shoud be considered as internal.
+// This code is used for benchmarks and it should be considered as internal.
 // See also https://golang.org/doc/play/sieve.go for original code.
 
 package primes
